@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/*colores*/
+/*tipografías*/
+h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: green;
+}
+
+h2 {
+  font-family: "Monserrat", sans-serif;
+  color: red;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+header {
+  background-color: orangered;
+  height: 10vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #061826;
+  height: 1000px;
+}
+
+/*# sourceMappingURL=main.css.map */
