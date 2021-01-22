@@ -1,0 +1,51 @@
+#inicio
+    background-color: grey
+    scroll-behavior: smooth
+    height: 100vh
+.cont-perfil
+    display: flex
+    background-color: $azul-oscuro
+    width: 100%
+    height: 50%
+    justify-content: center
+    align-items: center
+.cont-perfil-fondo
+    display: grid
+    grid-template-areas: "foto inf"
+    grid-template-columns: 1fr 2fr
+    background-color: crimson
+    width: 90%
+    height: 90%
+.cont-image-perfil
+    display: flex
+    justify-content: center
+    align-items: center
+.image-perfil
+    grid-area: foto
+    width: 100px
+    height: 100px
+    background-image: url("..//img//foto-perfil.jpeg")
+    background-size: cover
+    border-radius: 50%
+    border: 5px solid white
+    box-shadow: 0px 0px 10px 5px black 
+    margin: 0 10px
+.cont-inf-perfil
+    background-color: blue
+.cont-titulo
+    display: flex
+    flex-direction: column
+    height: 50%
+    justify-content: flex-end
+    background-color: black
+.borde-abajo
+    width: 90%
+    height: 5%
+    background-color: red
+    margin: 0 auto
+.titulo
+    font-family: $texto
+    font-size: 15px
+    background-color: grey
+    text-align: center
+    padding: 0
