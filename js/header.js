@@ -2,6 +2,12 @@ var btn = document.getElementById("btnMenu");
 var barras = document.getElementsByClassName("bar");
 var lista = document.getElementById("op");
 var logo = document.getElementsByClassName("anim");
+var opcion = document.getElementsByClassName("opcion");
+//inicio habilidades proyectos contacto
+var inicio = document.getElementById("ini");
+var habilidades = document.getElementById("hab");
+var proyectos = document.getElementById("proy"); 
+var contacto = document.getElementById("cont");
 
 btn.addEventListener("click",btnAnimacionStart);
 function btnAnimacionStart(){

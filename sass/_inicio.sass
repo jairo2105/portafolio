@@ -4,7 +4,7 @@
     height: 100vh
 .cont-perfil
     display: flex
-    background-color: $azul-oscuro
+    background-color: $fondo
     width: 100%
     height: 50%
     justify-content: center
@@ -13,9 +13,11 @@
     display: grid
     grid-template-areas: "foto inf"
     grid-template-columns: 1fr 2fr
-    background-color: crimson
+    background: linear-gradient(to left top,blue,violet)
     width: 90%
     height: 90%
+    border-radius: 20px
+    overflow: hidden
 .cont-image-perfil
     display: flex
     justify-content: center
@@ -28,24 +30,27 @@
     background-size: cover
     border-radius: 50%
     border: 5px solid white
-    box-shadow: 0px 0px 10px 5px black 
+    box-shadow: 0px 0px 5px 2px black 
     margin: 0 10px
 .cont-inf-perfil
-    background-color: blue
+    background-color: none
 .cont-titulo
     display: flex
     flex-direction: column
     height: 50%
     justify-content: flex-end
-    background-color: black
 .borde-abajo
     width: 90%
     height: 5%
-    background-color: red
+    background-color: crimson
     margin: 0 auto
 .titulo
     font-family: $texto
     font-size: 15px
-    background-color: grey
     text-align: center
-    padding: 0
+    padding: 0 5%
+.desc
+    font-size: 15px
+    color: white
+    font-weight: 500
+    text-align: center
