@@ -11,8 +11,7 @@
 </head>
 <body>
     <header>
-
-    <ul class="cont-op">
+    <ul class="cont-op" id="anchoul">
         <div class="cont-menu">
             <div class="boton" id="btnMenu">
             <div class="bar-up bar"></div>
@@ -27,7 +26,6 @@
         <li class="opcion"><a href="#contacto" id="cont" class="texto">Contacto</a></li>
         </div>
     </ul>
-    
     <div class="logo-cont">
         <div class="logo-fondo">
             <div class="barra orejaL LL anim"></div>
@@ -49,7 +47,8 @@
                 <div class="nariz barra anim"></div>
         </div>
     </div>
-    <div class="luz-cont"></div>
+    <div class="luz-cont">
+    </div>
     </header>
     <section id="inicio">
 <div class="sliderCont">
@@ -78,11 +77,8 @@
 
 <section id="habilidades">
     <div class="fondo-habi">
-    <article class="cont-cono">
+    <article class="cont-cono gridfondo">
         <h2 class="hab-titulo">Frontend</h2>
-    </article>
-    <article class="cont-cono">
-        <h2 class="hab-titulo">Backend</h2>
         <div class="cono">HTML</div>
         <div class="cono">CSS</div>
         <div class="cono">JAVASCRIPT</div>
@@ -90,23 +86,69 @@
         <div class="cono">SASS</div>
         <div class="cono">NPM</div>
     </article>
-    <article class="cont-cono">
+    <article class="cont-cono gridfondo">
+        <h2 class="hab-titulo">Backend</h2>
+        <div class="cono">PHP</div>
+        <div class="cono">NODE.JS</div>
+        <div class="cono">SQL</div>
+        <div class="cono">MY SQL</div>
+    </article>
+
+    <article class="cont-cono gridfondo">
         <h2 class="hab-titulo">Diseño</h2>
+        <div class="cono">ILUSTRATOR</div>
+        <div class="cono">PHOTOSHOP</div>
+        <div class="cono">FIGMA</div>
     </article>
-    <article class="cont-cono">
+
+    <article class="cont-cono gridfondo">
         <h2 class="hab-titulo">Control de versiones</h2>
+        <div class="cono">GIT</div>
+        <div class="cono">GIT HUB</div>
     </article>
+
 </div>
 </section>
 
-<section id="proyectos">proyectos</section>
+<section id="proyectos">
+<div class="proy-cont">
+    <img src="" alt="" class="proy-img">
+    <h3 class="proy-titulo">Proyecto 1</h3>
+    <p class="proy-desc">Este es el proyecto 1</p>
+</div>
+<div class="proy-cont">
+    <img src="" alt="" class="proy-img">
+    <h3 class="proy-titulo">Proyecto 1</h3>
+    <p class="proy-desc">Este es el proyecto 1</p>
+</div>
+<div class="proy-cont">
+    <img src="" alt="" class="proy-img">
+    <h3 class="proy-titulo">Proyecto 1</h3>
+    <p class="proy-desc">Este es el proyecto 1</p>
+</div>
+</section>
 
-<section id="contacto">contacto</section>
 
+<section id="contacto">
+    <div class="cont-contacto">
+        
+        <input class="email input" type="email" name="" id="" placeholder="Correo">
+        <input class="password input" type="password" name="" id="" placeholder="Contraseña">
+        <input class="message input" type="text" name="" id="">
+        <button class="enviar" type="submit">enviar</button>
+    </div>
+</section>
 <script src="js/header.js"></script>
-
+<script src="js/boton.js"></script>
+<script src="js/slider.js"></script>
 </body>
 <footer>
-    Este es el footer
+    <div class="cont-icons">
+        <img src="icons/github-brands.svg" alt="" class="icon">
+        <img src="icons/twitter-brands.svg" alt="" class="icon">
+        <img src="icons/envelope-regular.svg" alt="" class="icon">
+        <img src="icons/paper-plane-regular.svg" alt="" class="icon">
+    </div>
+    <span class="copy">copyright hecho con <corazon> &hearts; </corazon> por Jairo Alejandro &copy;</span>
 </footer>
 </html>

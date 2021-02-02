@@ -11,8 +11,8 @@ header
     width: 40%
     height: 100%
 .logo-fondo
-    width: 60px
-    height: 60px
+    width: 40px
+    height: 40px
     margin-bottom: 5%
     transform: rotate(45deg)
 .barra
@@ -121,7 +121,7 @@ header
     display: flex
     flex-direction: column
     width: 30%
-    height: 100vh
+    height: 20vh
 .cont-menu
     display: flex
     height: 20vh
@@ -139,27 +139,31 @@ header
     width: 40px
     height: 3px
     border-radius: 10px
-    background-color: black
+    background-color: $color-primario
     transition-duration: 0.4s
-    
 .bar-up
     rotate:0deg
 .bar-down
     rotate:0deg
 .opciones
     display: block
-    width: 100%
+    width: 100px
     flex-direction: column
     background-color: #2F2D2E
     font-size: 12px
     font-weight: 600
     height: 80vh
-    margin-left: -100%
+    position: fixed
+    margin-left: -100px
+    bottom: 0
     transition-duration: 0.4s
 .opcion
-    height: 25%
+    display: flex
+    height:20vh
     list-style: none
-    width: 100%
+    align-items: center
+    justify-content: center
+    width: 100px
     transition-duration: 0.4s
 .texto
     display: flex
